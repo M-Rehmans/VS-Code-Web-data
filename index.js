@@ -1,1 +1,1 @@
-$('h1').css("font-size","50px");
+$('h1').css("color","red");
