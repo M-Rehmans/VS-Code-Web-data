@@ -9,4 +9,7 @@
 // $('.prepend').prepend("<h3>Prep</h3>");
 
 // 3
-$('.before').remove()
+// $('.before').remove();
+$('.before').onclick(function(){
+$(".after").hide();
+})
