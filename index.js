@@ -10,9 +10,9 @@
 
 // 3
 // $('.before').remove();
-$('.before').click(function(){
-$(".after").toggle();
-});
+// $('.before').click(function(){
+// $(".after").toggle();
+// });
 $('.append').click(function(){
 $(".prepend").fadOut();
 })
