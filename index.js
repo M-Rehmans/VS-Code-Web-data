@@ -14,6 +14,6 @@
 // $(".after").toggle();
 // });
 $('.append').click(function(){
-$(".prepend").fadOut();
+$(".prepend").fadeOut();
 })
 
