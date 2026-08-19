@@ -1,3 +1,3 @@
 $(document).keypress(function(e){
-    $('h1').innerText(e)
+    $('h1').text(e);
 });
