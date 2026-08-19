@@ -10,6 +10,6 @@
 
 // 3
 // $('.before').remove();
-$('.before').onclick(function(){
+$('.before').click(function(){
 $(".after").hide();
 })
