@@ -13,7 +13,7 @@
 $('.before').click(function(){
 $(".after").toggle();
 });
-$('.after').click(function(){
-$(".before").fadOut();
+$('.append').click(function(){
+$(".prepend").fadOut();
 })
 
