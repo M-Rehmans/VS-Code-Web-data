@@ -1,3 +1,3 @@
-$(document).click(function(){
-    $('h1').css("color", "blue")
+$(document).keypress(function(e){
+    $('h1').innerText(e)
 });
