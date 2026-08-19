@@ -11,5 +11,9 @@
 // 3
 // $('.before').remove();
 $('.before').click(function(){
-$(".after").hide();
+$(".after").toggle();
+});
+$('.after').click(function(){
+$(".before").fadOut();
 })
+
