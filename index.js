@@ -9,11 +9,22 @@
 // $('.prepend').prepend("<h3>Prep</h3>");
 
 // 3
-// $('.before').remove();
-// $('.before').click(function(){
-// $(".after").toggle();
-// });
+$('.before').remove();
+$('.before').click(function(){
+$(".after").toggle();
+});
+
+// 4 fadeOut
 $('.append').click(function(){
 $(".prepend").fadeOut();
 })
 
+// 5 fadeIn
+$('.after').click(function(){
+    $('.prepend').fadeIn();
+})
+
+// 6 slideIn
+$('.prepend').click(function(){
+    $('.after').slideIn();
+})
