@@ -30,6 +30,8 @@
 //     $('.after').slideToggle();
 // })
 
+
+// Animation
 $('.prepend').click(function(){
-    $('.after').animate({opacity:0.2});
+    $('.after').animate({color: #0808dd22});
 })
