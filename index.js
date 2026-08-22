@@ -32,6 +32,11 @@
 
 
 // Animation
+// $('.prepend').click(function(){
+//     $('.after').animate({opacity:0.4});
+// })
+
+// combination
 $('.prepend').click(function(){
     $('.after').slideUp().slideDown().animate({opacity:0.4});
 })
