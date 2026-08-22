@@ -10,21 +10,26 @@
 
 // 3
 // $('.before').remove();
-$('.before').click(function(){
-$(".after").toggle();
-});
+
+// $('.before').click(function(){
+// $(".after").toggle();
+// });
 
 // 4 fadeOut
-$('.append').click(function(){
-$(".prepend").fadeOut();
-})
+// $('.append').click(function(){
+// $(".prepend").fadeOut();
+// })
 
 // 5 fadeIn
-$('.after').click(function(){
-    $('.prepend').fadeIn();
-})
+// $('.after').click(function(){
+//     $('.prepend').fadeIn();
+// })
 
 // 6 slideIn
+// $('.prepend').click(function(){
+//     $('.after').slideToggle();
+// })
+
 $('.prepend').click(function(){
-    $('.after').slideToggle();
+    $('.after').animate(opacity:0.2)
 })
