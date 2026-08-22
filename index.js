@@ -31,5 +31,5 @@
 // })
 
 $('.prepend').click(function(){
-    $('.after').animate(opacity:0.2)
+    $('.after').animate({opacity:0.2});
 })
