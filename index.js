@@ -33,5 +33,5 @@
 
 // Animation
 $('.prepend').click(function(){
-    $('.after').animate({color: #0808dd22});
+    $('.after').animate({color: #7676e7});
 })
