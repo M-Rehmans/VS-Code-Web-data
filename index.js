@@ -26,5 +26,5 @@ $('.after').click(function(){
 
 // 6 slideIn
 $('.prepend').click(function(){
-    $('.after').slideUp();
+    $('.after').slideToggle();
 })
