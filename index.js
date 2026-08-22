@@ -33,5 +33,5 @@
 
 // Animation
 $('.prepend').click(function(){
-    $('.after').animate({color: #7676e7});
+    $('.after').slideUp().slideDown().animate({opacity:0.4});
 })
